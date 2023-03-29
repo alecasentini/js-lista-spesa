@@ -7,12 +7,25 @@
     <title>Lista della spesa</title>
     <!-- link css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
         <div class="foglio">
             <h2>Lista della spesa</h2>
+
+            <hr>
+            <div class="buttons">
+                <button class="btn add" onclick="add()">Aggiungi</button>
+
+                <button class="btn remove-all" onclick="removeAll()">Cancella tutto</button>
+
+                <button class="btn remove-last" onclick="removeLast()">Rimuovi ultimo</button>
+            </div>
 
             <ul class="lista">
 
